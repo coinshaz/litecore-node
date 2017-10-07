@@ -1,20 +1,20 @@
-Litecore Node
+Unitedcore Node
 ============
 
-[![NPM Package](https://img.shields.io/npm/v/litecore-node.svg?style=flat-square)](https://www.npmjs.org/package/litecore-node)
-[![Build Status](https://img.shields.io/travis/litecoin-project/litecore-node.svg?branch=master&style=flat-square)](https://travis-ci.org/litecoin-project/litecore-node)
-[![Coverage Status](https://img.shields.io/coveralls/litecoin-project/litecore-node.svg?style=flat-square)](https://coveralls.io/r/litecoin-project/litecore-node)
+[![NPM Package](https://img.shields.io/npm/v/unitedcore-node.svg?style=flat-square)](https://www.npmjs.org/package/unitedcore-node)
+[![Build Status](https://img.shields.io/travis/coinshaz/unitedcore-node.svg?branch=master&style=flat-square)](https://travis-ci.org/coinshaz/unitedcore-node)
+[![Coverage Status](https://img.shields.io/coveralls/coinshaz/unitedcore-node.svg?style=flat-square)](https://coveralls.io/r/coinshaz/unitedcore-node)
 
-A Litecoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Litecoin Core with additional indexing](https://github.com/litecoin-project/litecore-litecoin) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Unitedcoin full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Unitedcoin Core with additional indexing](https://github.com/coinshaz/unitedcore-unitedcoin) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
 ```bash
-npm install -g litecore-node
-litecore-node start
+npm install -g unitedcore-node
+unitedcore-node start
 ```
 
-Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Litecoin Core with additional indexing](https://github.com/litecoin-project/litecore-litecoin).
+Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and x86_64 Mac OS X. Upon npm install, the binaries for your platform will be downloaded. For more detailed installation instructions, or if you want to compile the project yourself, then please see the Bitcore branch of [Unitedcoin Core with additional indexing](https://github.com/coinshaz/unitedcore-unitedcoin).
 
 ## Prerequisites
 
@@ -26,13 +26,13 @@ Note: For your convenience, we distribute bitcoind binaries for x86_64 Linux and
 
 ## Configuration
 
-Litecore includes a Command Line Interface (CLI) for managing, configuring and interfacing with your Litecore Node.
+Unitedcore includes a Command Line Interface (CLI) for managing, configuring and interfacing with your Unitedcore Node.
 
 ```bash
-litecore-node create -d <bitcoin-data-dir> mynode
+unitedcore-node create -d <bitcoin-data-dir> mynode
 cd mynode
-litecore-node install <service>
-litecore-node install https://github.com/yourname/helloworld
+unitedcore-node install <service>
+unitedcore-node install https://github.com/yourname/helloworld
 ```
 
 This will create a directory with configuration files for your node and install the necessary dependencies. For more information about (and developing) services, please see the [Service Documentation](docs/services.md).
@@ -58,13 +58,13 @@ There are several add-on services available to extend the functionality of Bitco
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/litecoin-project/litecore/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/coinshaz/unitedcore/blob/master/CONTRIBUTING.md) file.
 
 ## License
 
-Code released under [the MIT license](https://github.com/litecoin-project/litecore-node/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/coinshaz/unitedcore-node/blob/master/LICENSE).
 
-Copyright 2016 The Litecoin Core Developers
+Copyright 2016 The Unitedcoin Core Developers
 
 - bitcore: Copyright (c) 2013-2015 BitPay, Inc. (MIT License)
 - bitcoin: Copyright (c) 2009-2015 Bitcoin Core Developers (MIT License)
